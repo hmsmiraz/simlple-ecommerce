@@ -1,0 +1,133 @@
+
+
+
+
+
+
+/*Style for Header*/
+header .top-header .nav .nav-link{
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-right: 1px solid #efefef;
+    color: #858585;
+    display: inline-block;
+    padding: 11px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+header .bg-light{
+    background-color: #4a4a4a !important;
+}
+header .navbar{
+    padding: 0;
+}
+header .navbar-expand-lg .navbar-nav .nav-item{
+    padding: 19px 7px 15px 7px;
+}
+header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid transparent;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-item:hover{
+    background-color: #f8f8f8;
+}
+header .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link{
+    color: #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+/*Style for Best Sellers*/
+.best-sellers{
+    margin-bottom: 0.7rem;
+    margin-top: 1.5rem;
+}
+.best-sellers .best-sellers-title{
+    border-bottom: 1px #e5e5e5 solid;
+}
+.best-sellers h2{
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 1rem 0;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.best-sellers h2 span{
+    font-weight: 600;
+}
+.best-sellers .card{
+    border: none;
+}
+.best-sellers .card .card-body .card-title a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+}
+
+.best-sellers .card .card-body .card-title a:hover{
+    color: #ef4749;
+}
+
+.best-sellers .card .card-body .feedback{
+    font-size: 0.5rem;
+    color: #eeee30;
+}
+.best-sellers .card .card-body .feedback .fa-star{
+    margin-left: 0.15rem;
+}
+
+.best-sellers .card .card-body .card-text{
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+}
+
+.best-sellers .card .card-body p .btn{
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+    display: inline-block;
+    padding: 8px 12px ;
+    font-size: 0.7rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #666;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+.best-sellers .card .card-body p .btn:hover{
+    background: #ef4749 ;
+    color: #fff;
+    border: 1px #ef4749 solid;
+}
+
+/*Style for Footer*/
+footer{
+    background-color: #333;
+    padding: 18px;
+}
+footer .col-sm-4 p{
+    color: #666;
+    font-size: 0.8rem;
+}
+
+footer .col-sm-7 a{
+    color: #999;
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
